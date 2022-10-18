@@ -11,6 +11,7 @@ const fs = require("fs");
 
 // for reading file 'q.txt'
 const a = fs.readFileSync('./a.txt', { encoding: 'utf8', flag: 'r' });
+const aAsNumber = Number(a);
 
 // for reading file 'b.txt'
 const b = fs.readFileSync('./b.txt', { encoding: 'utf8', flag: 'r' });
