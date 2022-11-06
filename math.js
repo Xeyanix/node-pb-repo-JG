@@ -20,5 +20,5 @@ module.exports.add = add;
 module.exports.sub = sub;
 module.exports.mul = mul;
 module.exports.div = div;
-//zad.5 Rozbudowanie kalkulatora o stałą matematyczną PI i wypisanie tejże wartości na konsoli w naszej głównej aplikacji.
+//zad.5 Rozbudowanie kalkulatora o stałą matematyczną PI i wypisanie tejże wartości na konsoli w naszej głównej aplikacji
 // module.exports.Pi = 3.14;
