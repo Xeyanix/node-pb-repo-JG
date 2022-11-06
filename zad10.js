@@ -1,5 +1,3 @@
-
-
 const calc = require("./math.js");
 const fs = require("fs");
 
@@ -21,7 +19,6 @@ data += "\nMnozenie  a*b= " + calc.mul(a, b);
 data += "\nDzielenie  a*b= " + calc.div(a, b);
 
 fs.writeFileSync("wynik.txt", data);
-
 
 const input1 = process.argv[2];
 const input2 = process.argv[3];

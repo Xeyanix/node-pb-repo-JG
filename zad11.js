@@ -20,23 +20,27 @@ data += "\nDzielenie  a*b= " + calc.div(a, b);
 
 fs.writeFileSync("wynik.txt", data);
 
+
 const input1 = process.argv[2];
 const input2 = process.argv[3];
+const input3 = process.argv[4];
 
-if (process.argv.length > 4 ) {
-  console.log("zbyt duzo parametrów");
+if (process.argv.length > 4) {
+    console.log("zbyt duzo parametrów");
+} else if (process.argv.length === 4) {
 
-} else if (process.argv.length === 4 ) {
+    let text1 = fs.readFileSync(input1, "utf8");
+    let text2 = fs.readFileSync(input2, "utf8");
 
-  let text1 = fs.readFileSync(input1, "utf8");
-  let text2 = fs.readFileSync(input2, "utf8");
-
-  console.log("a:",text1, "\nb:",  text2,
-    "\nDodawanie a+b= " + calc.add(a, b),
-    "\nOdejmowanie a-b= " + calc.sub(a, b),
-    "\nMnożenie a*b= " + calc.mul(a, b),
-    "\nDzielenie a/b= " + calc.div(a, b)
-  );
+    console.log("a:", text1, "\nb:", text2,
+        "\nDodawanie a+b= " + calc.add(a, b),
+        "\nOdejmowanie a-b= " + calc.sub(a, b),
+        "\nMnożenie a*b= " + calc.mul(a, b),
+        "\nDzielenie a/b= " + calc.div(a, b)
+    );
 } else {
-  console.log("za malo parametrów");
+    console.log("za malo parametrów");
+
+
 }
+

@@ -32,4 +32,3 @@ console.log("Odejmowanie a-b= " + calc.sub(a, b));
 console.log("Mnożenie a*b= " + calc.mul(a, b));
 console.log("Dzielenie a/b= " + calc.div(a, b));
 
-

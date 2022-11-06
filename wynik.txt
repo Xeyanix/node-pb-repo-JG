@@ -1,5 +1,5 @@
 
-Dodawanie a+b= 102416
-Odejmowanie a-b= 1008
-Mnozenie  a*b= 16384
-Dzielenie  a*b= 64
+Dodawanie a+b= 15
+Odejmowanie a-b= 5
+Mnozenie  a*b= 50
+Dzielenie  a*b= 2

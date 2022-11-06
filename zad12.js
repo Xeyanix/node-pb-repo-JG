@@ -1,4 +1,3 @@
-
 // Aplikacja złożona jest z 1 pliku: zad12.js. Podczas uruchamiania możemy przekazać jej dodatkowy parametr który jest ścieżką do istniejącego na dysku folderu.
 //  Zadaniem aplikacji jest wyświetlanie w konsoli nazw wszystkich plików i folderów znajdujących się bezpośrednio we wskazanym folderze.
 // Uruchomienie z niewłaściwą liczbą parametrów powinno skutkować wyświetleniem komunikatu w konsoli. 
@@ -43,6 +42,8 @@ fs.readdirSync(input1).forEach(file => {
         console.log('za malo parametrów')
     }
 });
+
+
 
 
 
